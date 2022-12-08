@@ -9,7 +9,7 @@
 - **learning\_rate** : Initial learning rate, too small of a value will result in very slow training, too high of a value might result in sup-optimal learning
 - **per\_device\_eval\_batch\_size** : Similar to **per\_device\_train\_batch\_size** , limited by which GPU one has access to
 
-**eval\_steps** : Evaluating the model more often could help against overfitting
+- **eval\_steps** : Evaluating the model more often could help against overfitting
 
 - One could create a pre-trained distillation model that achieves similar performance as the original Whisper model but is less computationally expensive in order to make the model faster to train
 
